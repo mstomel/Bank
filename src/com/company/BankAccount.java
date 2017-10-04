@@ -6,6 +6,7 @@ package com.company;
 public class BankAccount {
 
         double balance;
+        String na;
 
         public BankAccount(double bal, String name){
 

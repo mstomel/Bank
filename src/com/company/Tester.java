@@ -11,7 +11,9 @@ public class Tester {
         String n = in.next();
         BankAccount myAccount = new BankAccount(b, n);
         myAccount.deposit(in.nextDouble());
-        
+        System.out.println(myAccount.balance);
+        myAccount.withdraw(in.nextDouble());
+        System.out.println("The "+myAccount.na);
 
     }
 
