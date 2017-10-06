@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Tester {
 
-    public String Main() {
+    public void Main() {
 
         Scanner in = new Scanner(System.in);
         double b = in.nextDouble();
@@ -13,7 +13,7 @@ public class Tester {
         myAccount.deposit(in.nextDouble());
         System.out.println(myAccount.balance);
         myAccount.withdraw(in.nextDouble());
-        System.out.println("The "+myAccount.na);
+        System.out.println("The "+myAccount.na+" has a balance of "+myAccount.balance);
 
     }
 

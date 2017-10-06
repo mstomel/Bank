@@ -1,17 +1,14 @@
 package com.company;
 
-/**
- * Created by ms787 on 10/4/17.
- */
 public class BankAccount {
 
-        double balance;
-        String na;
+        public double balance;
+        public String na;
 
-        public BankAccount(double bal, String name){
+        public BankAccount(double b, String n){
 
-            balance = bal;
-            String na =name;
+            balance = b;
+            String na =n;
 
         }
         public void deposit(double d) {
